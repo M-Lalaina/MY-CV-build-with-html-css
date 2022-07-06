@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#pti_trait {
+  width: 27px;
+  height: 2px;
+  background: #6b6a6a;
+}
