@@ -177,7 +177,7 @@
 
           <!-- PARTIE GAUCHE -->
 
-          <section class="col-4">
+          <section class="col-lg-4">
             <!-- ? -->
 
             <!-- ?SOCIAL MEDIAS -->
@@ -500,11 +500,11 @@
 
           <!-- PARTIE DROITE -->
 
-          <section class="col ms-5 ps-5">
+          <section class="col-lg ms-lg-5 ps-lg-5">
             <!--  -->
             <!-- ?PROFIL -->
 
-            <div class="row pb-5">
+            <div class="row" id="profil_padding">
               <div>
                 <h4 class="text-uppercase">profile</h4>
                 <hr />
@@ -720,5 +720,119 @@
     </main>
 
     <!--?-------------- FIN DU CONTENUS ------------------>
+
+    <footer>
+      <!-- FORMULAIRES -->
+
+      <section class="container formulaires_contact text-center">
+        <!-- NAME -->
+
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <input
+                class="border py-2 px-3"
+                id="form_name"
+                type="text"
+                name="name"
+                placeholder="Nom"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- EMAIL -->
+
+        <div class="row py-1">
+          <div class="col pe-0">
+            <div class="form-group">
+              <input
+                class="border py-2 px-3"
+                id="form_email"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+
+          <!-- PHONE -->
+
+          <div class="col py-1 ps-1">
+            <div class="form-group">
+              <input
+                class="border py-2 px-3"
+                id="form_phone"
+                name="phone"
+                placeholder="Phone"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- MESSAGE -->
+
+        <div class="row">
+          <div class="form-group">
+            <textarea
+              class="border py-2 px-3"
+              id="form_message"
+              required="required"
+              placeholder="votre message ici..."
+            ></textarea>
+          </div>
+        </div>
+
+        <!-- SEND BUTTON -->
+
+        <div class="row justify-content-center my-4">
+          <button id="submit_btn" class="border border-white py-3 fs-6">
+            Envoyer
+          </button>
+        </div>
+      </section>
+
+      <br />
+
+      <div class="px-5 mx-5">
+        <hr />
+      </div>
+
+      <section class="container-fluid">
+        <div id="copyrightAndIcons">
+          <div class="d-flex justify-content-center my-5" id="copyright">
+            <span
+              >©2022 Copyright<strong> | </strong>Manan-Jo Lalaina
+              ANDRIAMIAROZAKA
+            </span>
+          </div>
+
+          <div class="pb-1 d-flex justify-content-center">
+            <div id="icon">
+              <a
+                class="text-black"
+                href="https://github.com/M-Lalaina"
+                target="_blank"
+                ><i class="fa-brands fa-github pe-4 fs-5"></i
+              ></a>
+
+              <a
+                class="text-black"
+                href="http://www.facebook.com/Lalaina.2002"
+                target="_blank"
+                ><i class="fa-brands fa-facebook-f pe-4 fs-5"></i
+              ></a>
+
+              <a
+                class="text-black"
+                href="https://www.linkedin.com/in/manan-jo-lalaina-andriamiarozaka?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bk1cwyA%2BkQYyMYX24ykrY7g%3D%3D"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in fs-5"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

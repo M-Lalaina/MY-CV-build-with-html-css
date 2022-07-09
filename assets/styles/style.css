@@ -21,7 +21,8 @@ h1,
 h3,
 h4,
 .study,
-.work {
+.work,
+footer {
   font-family: "rajdhani";
   letter-spacing: 0.5rem;
 }
@@ -55,13 +56,25 @@ main .letter_spacing {
   letter-spacing: 0.06rem;
 }
 
-div hr {
-  height: 5px;
+#profil_padding {
+  padding-bottom: 10%;
+}
+
+#submit_btn {
+  width: 20%;
+}
+
+footer {
+  color: #aaaaaa;
 }
 
 @media screen and (max-width: 991px) {
   figure {
     width: 50%;
     border-radius: 80%;
+  }
+
+  #profil_padding {
+    padding: 10% 0;
   }
 }
