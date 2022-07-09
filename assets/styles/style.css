@@ -58,3 +58,10 @@ main .letter_spacing {
 div hr {
   height: 5px;
 }
+
+@media screen and (max-width: 991px) {
+  figure {
+    width: 50%;
+    border-radius: 80%;
+  }
+}
