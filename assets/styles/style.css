@@ -13,6 +13,7 @@ body {
   border: 1px solid #055e5f;
   box-shadow: 0px -2px 1px 1px #36a5a7;
 }
+
 h1 {
   font-size: 4rem;
 }
@@ -21,8 +22,7 @@ h1,
 h3,
 h4,
 .study,
-.work,
-footer {
+.work {
   font-family: "rajdhani";
   letter-spacing: 0.5rem;
 }
@@ -60,21 +60,97 @@ main .letter_spacing {
   padding-bottom: 10%;
 }
 
-#submit_btn {
-  width: 20%;
+.social_medias_icons_title {
+  font-size: 0.8rem;
+  font-family: "rajdhani";
 }
 
-footer {
-  color: #aaaaaa;
+footer .formulaires_contact {
+  padding: 0 15%;
+}
+
+input,
+textarea {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  height: 120px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: #2b7071;
+  color: #ffffff;
+}
+
+input::placeholder,
+textarea::placeholder,
+#submit_btn {
+  color: #055e5f;
+  text-shadow: 0px -1px 1px #36a5a7;
+}
+
+#submit_btn {
+  width: 20%;
+  background-color: #fff;
+  border: 1px solid #36a5a7;
+}
+
+#submit_btn:hover {
+  background-color: #055e5f;
+  border: 2px solid #30b2b4;
+  color: #fff;
+}
+
+footer #copyrightAndIcons {
+  font-family: "rajdhani";
+  letter-spacing: 0.4rem;
+  color: #6b6a6a;
+}
+#copyrightAndIcons a i {
+  color: #6b6a6a;
+}
+
+#copyrightAndIcons a i:hover {
+  color: #055e5f;
+  opacity: 0.8;
+  transform: scale(2.05);
+  transition: 0.6s ease-in-out;
 }
 
 @media screen and (max-width: 991px) {
   figure {
-    width: 50%;
+    width: 30%;
     border-radius: 80%;
   }
 
   #profil_padding {
     padding: 10% 0;
+  }
+
+  footer .formulaires_contact {
+    padding: 0 7%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  figure {
+    width: 40%;
+    border-radius: 80%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  figure {
+    width: 60%;
+    border-radius: 80%;
   }
 }
